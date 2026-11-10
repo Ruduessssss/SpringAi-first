@@ -13,6 +13,8 @@ spring:
     openai:
       base-url: ${MODEL_BASE_URL}
       api-key: ${MODEL_API_KEY}
+      timeout: 20s
+      max-retries: 1
 
       chat:
         model: ${MODEL_NAME}

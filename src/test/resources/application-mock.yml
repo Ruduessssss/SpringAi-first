@@ -1,0 +1,12 @@
+spring:
+  ai:
+    openai:
+      base-url: http://127.0.0.1:18089/v1
+      api-key: local-test-key
+      timeout: 20s
+      max-retries: 1
+
+      chat:
+        base-url: http://127.0.0.1:18089/v1
+        api-key: local-test-key
+        model: mock-model
